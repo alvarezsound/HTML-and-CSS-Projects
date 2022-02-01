@@ -1,2 +1,2 @@
 # HTML-and-CSS-Projects
-Repository for my HTML and CSS course projects
+This is the repository for all of my HTML and CSS course projects!
