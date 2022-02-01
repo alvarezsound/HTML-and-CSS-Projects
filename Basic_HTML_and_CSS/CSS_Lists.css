@@ -1,0 +1,10 @@
+ol {
+	list-style-type: upper-roman;
+	color: indianred;
+}
+
+ul {
+	list-style-type: square;
+	color: seagreen;
+	text-shadow: 2px 2px 8px #FF0000;
+}

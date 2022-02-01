@@ -1,0 +1,31 @@
+h1 {
+	color: gray;
+	font-weight: bold;
+	text-align: center;
+	font-family: Arial;
+
+}
+
+table {
+	border: 2px solid gray;
+}
+
+td:hover {
+	background-color: lightyellow;
+	color: gray;
+}
+
+tr, th {
+	background-color: indianred;
+	color: floralwhite;
+	font-weight: bold;
+	font-family: Arial;
+
+}
+
+tr, td {
+	background-color: seagreen;
+	color: floralwhite;
+	text-align: center;
+	font-family: Arial;
+}
