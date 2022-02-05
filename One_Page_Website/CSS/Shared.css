@@ -16,7 +16,7 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff;
+    background-color: #ddcc9f;;
 }
 
 footer
@@ -25,17 +25,17 @@ nav {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Helvetica', sans-serif;
 }
 
 h1 {
   line-height: 50px;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 40px;
   text-transform: uppercase;
   text-align: center;
-  color: #E91C1C;
-  text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+  color: rgba(77, 82, 52);
+  text-shadow: 2px 2px 3px rgba(29, 29, 29, 0.8);
 }
 
 h1:after { /* This is the underline */
@@ -43,14 +43,14 @@ h1:after { /* This is the underline */
     content: "";
     height: 2px;
     width: 150px;
-    background: #E91C1C;
+    background: rgb(109, 41, 29);
     margin: 5px auto 40px;
-    box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
+    box-shadow: 5px 2px 3px rgba(29, 29, 29, 0.5);
 }
 
 h2 {
     line-height: 50px;
-    color: #E91C1C;
+    color: #ddcc9f;
 }
 
 h3 {
@@ -142,7 +142,7 @@ section {
 HOME SECTION STYLES
 =========================================*/
 #home {
-    background: url(../Images/Planets.jpeg) no-repeat 50% 50%;
+    background: url(../Images/Home.jpeg) no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -159,15 +159,15 @@ HOME SECTION STYLES
 .head-main {
     text-shadow: 2px 4px 5px rgba(0,0,0,0.9);
     font-variant: small-caps;
-    color: #fff;
+    color: #ddcc9f;;
     letter-spacing: 5pt;
     word-spacing: 21pt;
-    font-size: 4.5em;
+    font-size: 5.5em;
     text-align: left;
-    font-family: 'Impact', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     line-height: 2;
     font-weight: 900;
-    border: 5px double #fff; /* border around main title*/
+    border: 5px dashed rgb(109, 41, 29); /* border around main title*/
     padding: 10px;
 }
 
@@ -196,12 +196,12 @@ CONTACT STYLES
     padding: 10px;
     border-radius: 8px;
     margin: 0px auto;
-    background-color: rgba(100,65,0,.3);
+    background-color: rgba(77, 82, 52, 0.8);
     box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
 }
 
 #contact {
-    background-color: #f5f3f3;
+    background: url(../Images/Map.jpeg) no-repeat 50% 50%;
 }
 
 .reservation {
@@ -209,7 +209,7 @@ CONTACT STYLES
     padding: 10px;
     border-radius: 8px;
     margin: 0px auto;
-    background-color: rgba(100,65,0,.3);
+    background-color: rgba(77, 82, 52, 0.8);
     box-shadow: -1px -1px 1px 0 rgba(0,0,0,.1), 1px 2px 10px 0 rgba(0,0,0,.5);
 }
 
@@ -217,9 +217,9 @@ CONTACT STYLES
     width: 70%;
     text-align: center;
     margin: 0 auto;
-    color: #13161b;
+    color: #ddcc9f;
     font-weight: 500;
-    font-size: 1.3em;
+    font-size: 1.6em;
     letter-spacing: 0pt;
     word-spacing: 0pt;
 }
@@ -228,18 +228,18 @@ CONTACT STYLES
     width: 70%;
     text-align: center;
     margin: 0 auto;
-    color: #13161b;
+    color: #ddcc9f;
     font-weight: 900;
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-variant: small-caps;
     letter-spacing: .4pt;
     word-spacing: .3pt;
 }
 
 .reservation p {
-    color: #13161b;
+    color: #ddcc9f;
     width: 50%;
-    margin: 0 auto;   
+    margin: 0 auto;  
 }
 
 .rsvp-text {
@@ -250,22 +250,22 @@ CONTACT STYLES
     font-size: 15px;
     outline: none;
     font-weight: 600;
-    color: #8d8e8f;
+    color: #b1241f;
     padding: 12px 12px;
     width: 70%;
     border: 1px solid #808080;
     margin: 2% auto;
     border-radius: 7px;
-    background: rgb(227,222,222);
+    background: #ddcc9f;
     box-shadow: 2px 3px 3px 0px rgba(0,0,0,.3);
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Helvetica', sans-serif;
 }
 
 .reservation input[type="text"] {
     font-size: 15px;
     outline: none;
     font-weight: 600;
-    color: #8d8e8f;
+    color: #ddcc9f;
     padding: 2% 1% 2% 7%;
     width: 80%; 
     border-top: 1px solid #090b0d;
@@ -274,13 +274,13 @@ CONTACT STYLES
     border-left: 1px solid #090b0d;
     margin: 10px 1em;
     border-radius: 7px;
-    background: #13161b;
+    background: rgb(71, 54, 33);
     box-shadow: inset 0px 3px 0px 0px rgba(5,5,5,0.15);
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Helvetica', sans-serif;
 }
 
 .reservation input[type="text"]:hover {
-    box-shadow: 0 0 18px rgba(100,65,0,.8);
+    box-shadow: 0 0 18px rgba(77, 82, 52, 0.8);
 }
 
 .form-spacer {
@@ -303,12 +303,12 @@ CONTACT STYLES
 }
 
 .terms:hover {
-    color: orange;
+    color: rgb(201, 60, 17);
     text-decoration: underline;
 }
 
 .submit input[type="submit"] {
-    color: rgb(225,225,225);
+    color: #ddcc9f;
     cursor: pointer;
     border: none;
     font-weight: 900;
@@ -321,13 +321,13 @@ CONTACT STYLES
     font-size: 18px;
     transition: border-color 0.3s color 0.3s background-color 0.3s;
     border-radius: 7px;
-    background-color: #797a7b;
+    background-color: rgba(77, 82, 52);
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.3);
 }
 
 .submit input[type="submit"]:hover {
     color: #000;
-    background-color: #8d8e8f;
+    background-color: rgba(77, 82, 52);
     box-shadow: inset 1px 2px 15px 0 rgba(0,0,0,.5);
 }
 
@@ -335,8 +335,8 @@ CONTACT STYLES
 FOOTER STYLES
 =========================================*/
 #footer {
-    background-color: rgba(100,65,0,.3);
-    color: #000;
+    background-color: #ddcc9f;
+    color: rgba(77, 82, 52);
     text-shadow: 2px 2px 8px 0 (0,0,0,.4);
     padding: 20px 50px 20px 50px;
     text-align: right;
