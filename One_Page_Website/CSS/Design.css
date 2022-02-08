@@ -250,7 +250,7 @@ ORDER/CATERING FORM STYLES
     color: #b1241f;
     padding: 12px 12px;
     width: 70%;
-    border: 1px solid #808080;
+    border: 1px solid #73d3d3;
     margin: 2% auto;
     border-radius: 7px;
     border-color: #73d3d3;
@@ -264,20 +264,17 @@ ORDER/CATERING FORM STYLES
     outline: none;
     font-weight: 600;
     color: #f2f2f2;
-    padding: 2% 1% 2% 7%;
+    padding: 2% 1% 2% 15%;
     width: 80%; 
-    border-top: 1px solid #090b0d;
-    border-right: 2px solid #424549;
-    border-bottom: 2px solid #424549;
-    border-left: 1px solid #090b0d;
-    margin: 10px 1em;
+    border: 2px solid #73d3d3;
+    margin: 6px 1em;
     border-radius: 7px;
     background: rgb(82, 78, 74);
     font-family: 'Arial', sans-serif;
 }
 
 .catering input[type="text"]:hover {
-    box-shadow: 0 0 18px rgba(177, 131, 87, .9);
+    box-shadow: 0 0 18px rgba(177, 131, 87, 1);
 }
 
 .form-spacer {
