@@ -200,6 +200,8 @@ ORDER/CATERING FORM STYLES
 
 #order {
     background: url(../Images/Donuts.jpg) no-repeat 50% 50%;
+    background-attachment: fixed;
+
 }
 
 .catering {
