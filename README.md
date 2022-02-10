@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1>HTML-and-CSS-Projects</h1>
 <p>This is the repository for all of my HTML and CSS course projects!</p>
 <h2>Projects:</h2>
@@ -16,3 +17,12 @@
 <p>This page is an example home page for a Movie theater that is styled using Bootstrap 4. It contains many Bootstrap comoponents including but not limited to a navbar, jumbotron, form, cards, and dropdowns.</p>
 <h3>Portfolio Site:</h3>
 <p>This is my portfolio site and was the culmination of evertything I learned in the HTML/CSS course</p>
+=======
+# HTML-and-CSS-Projects
+This is the repository for all of my HTML and CSS course projects!
+<br>Projects:
+<br>-Middle Earth Site
+<br>-Jeff's Donuts Site
+<br>-Movie Theater Site
+<br>-Portfolio Site
+>>>>>>> 2c51ed9b745d06ce6e320335afee39ab93e41d50
