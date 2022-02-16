@@ -32,71 +32,140 @@ NAV MENU SECTION ANIMATION
 /*========================================
 MENU/GALLERY SECTION ANIMATION
 =========================================*/
-.photo {
-    position: relative;
-    line-height: 0;
-    margin-bottom: 2em;
-    overflow: hidden;
-    border-radius: 8px;
-    padding: 1px;
-    border: 5px solid #fcdade;
+* {
+    box-sizing: border-box;
+  }
+  
+  .row > .column {
+    padding: 0 12px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    float: left;
+    width: 20%;
     background-color: #73d3d3;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.7);
 }
-
-.photo-container {
-    text-align: center;
-    margin: 15px auto;
-    width: 310px;
-    height: 310px;
-}
-
-.photo-container img {
-    max-width: 100%;
-    width: 310px;
-    height: 310px;
-}
-
-.photo-overlay {
-    color: #fff;
+  
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #fcdade;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #73d3d3;
+    margin: auto;
+    padding: 0;
+    width: 42%;
+    max-width: 1200px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: rgb(177, 131, 87);
+    position: absolute;
+    top: 60px;
+    right: 25px;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: rgb(56, 28, 10);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(177, 131, 87, .8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 18px;
+    padding: 8px 12px;
     position: absolute;
     top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding-left: 20px;
-    padding-right: 20px;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0,0,0,0.5);
-}
-
-.white-head {
-    color: #fcdade;
-    margin-top: 50%;
-    line-height: 30px;
-    padding-bottom: 20px;
-}
-
-/*========================================
-PHOTO OVERLAY TRANSITIONS
-=========================================*/
-.photo-overlay {
-    opacity: 0;
-    transition: opacity .1s;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.photo-overlay:hover {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  img {
+    margin-bottom: -4px;
+  }
+  
+  .caption-container {
+    text-align: center;
+    background-color: rgb(56, 28, 10);
+    padding: 2px 16px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
     opacity: 1;
-}
-
-.photo img {
-    transition: transform .5s;
-    transform-origin: 50% 50%;
-}
-
-.photo:hover img {
-    transform: scale(1.1);
-}
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }

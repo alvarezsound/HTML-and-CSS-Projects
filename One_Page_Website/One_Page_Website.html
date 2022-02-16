@@ -5,10 +5,10 @@
 		<title>Jeff's Donuts | Yum!</title>
 		<link rel="stylesheet" href="./CSS/Design.css">
         <link rel="stylesheet" href="./CSS/Animation.css">
+		<script src="./JS/One_Page_Website.js" defer></script>
 		<link rel="shortcut icon" type="image/jpg" href="./Images/favicon.ico"/>
 	</head>
 	<body>
-        
         <!-- NAV -->
 		<div class="wrap">
 			<div class="menu-container">
@@ -34,136 +34,137 @@
         </div>
         <!-- END HOME -->
 
-        <!-- MENU/GALLERY -->
-        <section id="menu">
-            <div class="container">
-				<h1>Donuts</h1>
-                <div class="flex-container">
+        <!-- MENU/GALLERY Lightbox -->
+		<div id="menu" class="heading-padding"></div>
+		<h1>Donuts</h1>	
+		<div class="row">
+			<div class="column">
+				<img src="./Images/Thumb/thumbnail_1.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+			</div>
+			<div class="column">
+				<img src="./Images/Thumb/thumbnail_2.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+			</div>
+			<div class="column">
+				<img src="./Images/Thumb/thumbnail_3.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+			</div>
+			<div class="column">
+				<img src="./Images/Thumb/thumbnail_4.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+			</div>
+			<div class="column">
+				<img src="./Images/Thumb/thumbnail_5.png" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+			</div>
+			<div class="column">
+				<img src="./Images/Thumb/thumbnail_6.png" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+			</div>
+			<div class="column">
+				<img src="./Images/Thumb/thumbnail_7.png" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+			</div>
+			<div class="column">
+				<img src="./Images/Thumb/thumbnail_8.png" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+			</div>
+			<div class="column">
+				<img src="./Images/Thumb/thumbnail_9.png" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+			</div>
+			<div class="column">
+				<img src="./Images/Thumb/thumbnail_10.png" style="width:100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+			</div>
+		</div>
 
-                    <!-- PHOTO CONTAINER 1 -->
-					<div class="photo-container">
-						<div class="photo">
-							<img src="./Images/Thumb/thumbnail_1.png" alt="Photo of">
-							<div class="photo-overlay">
-								<h3 class="white-head">Add to Order</h3>
-								<p>Original glazed</p>
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO CONTAINER 1 -->
+		<div id="myModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+			
+				<div class="mySlides">
+				<div class="numbertext">1 / 10</div>
+				<img src="./Images/Thumb/thumbnail_1.png" style="width:100%">
+				</div>
+			
+				<div class="mySlides">
+				<div class="numbertext">2 / 10</div>
+				<img src="./Images/Thumb/thumbnail_2.png" style="width:100%">
+				</div>
+			
+				<div class="mySlides">
+				<div class="numbertext">3 / 10</div>
+				<img src="./Images/Thumb/thumbnail_3.png" style="width:100%">
+				</div>
+				
+				<div class="mySlides">
+				<div class="numbertext">4 / 10</div>
+				<img src="./Images/Thumb/thumbnail_4.png" style="width:100%">
+				</div>
 
-                    <!-- PHOTO CONTAINER 2 -->
-					<div class="photo-container">
-						<div class="photo">
-							<img src="./Images/Thumb/thumbnail_2.png" alt="Photo of">
-							<div class="photo-overlay">
-								<h3 class="white-head">Add to Order</h3>
-								<p>Chocolate frosting with sprinkles</p>
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO CONTAINER 2 -->
-                
-                    <!-- PHOTO CONTAINER 3 -->
-					<div class="photo-container">
-						<div class="photo">
-							<img src="./Images/Thumb/thumbnail_3.png" alt="Photo of">
-							<div class="photo-overlay">
-								<h3 class="white-head">Add to Order</h3>
-								<p>Strawberry frosting with sprinkles</p>	
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO CONTAINER 3 -->
+				<div class="mySlides">
+				<div class="numbertext">5 / 10</div>
+				<img src="./Images/Thumb/thumbnail_5.png" style="width:100%">
+				</div>
 
-                    <!-- PHOTO CONTAINER 4 -->
-					<div class="photo-container">
-						<div class="photo">
-							<img src="./Images/Thumb/thumbnail_4.png" alt="Photo of">
-							<div class="photo-overlay">
-								<h3 class="white-head">Add to Order</h3>
-								<p>Chocolate glazed</p>
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO CONTAINER 4 -->
+				<div class="mySlides">
+				<div class="numbertext">6 / 10</div>
+				<img src="./Images/Thumb/thumbnail_6.png" style="width:100%">
+				</div>
 
-                    <!-- PHOTO CONTAINER 5 -->
-					<div class="photo-container">
-						<div class="photo">
-							<img src="./Images/Thumb/thumbnail_5.png" alt="Photo of">
-							<div class="photo-overlay">
-								<h3 class="white-head">Add to Order</h3>
-								<p>Cinnamon sugar old-fashioned</p>
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO CONTAINER 5 -->
+				<div class="mySlides">
+				<div class="numbertext">7 / 10</div>
+				<img src="./Images/Thumb/thumbnail_7.png" style="width:100%">
+				</div>
 
-                    <!-- PHOTO CONTAINER 6 -->
-					<div class="photo-container">
-						<div class="photo">
-							<img src="./Images/Thumb/thumbnail_6.png" alt="Photo of">
-							<div class="photo-overlay">
-								<h3 class="white-head">Add to Order</h3>
-								<p>Powdered cake</p>
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO CONTAINER 6 -->
+				<div class="mySlides">
+				<div class="numbertext">8 / 10</div>
+				<img src="./Images/Thumb/thumbnail_8.png" style="width:100%">
+				</div>
 
-                    <!-- PHOTO CONTAINER 7 -->
-					<div class="photo-container">
-						<div class="photo">
-							<img src="./Images/Thumb/thumbnail_7.png" alt="Photo of">
-							<div class="photo-overlay">
-								<h3 class="white-head">Add to Order</h3>
-								<p>Glazed cruller</p>
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO CONTAINER 7 -->
+				<div class="mySlides">
+				<div class="numbertext">9 / 10</div>
+				<img src="./Images/Thumb/thumbnail_9.png" style="width:100%">
+				</div>
 
-                    <!-- PHOTO CONTAINER 8 -->
-					<div class="photo-container">
-						<div class="photo">
-							<img src="./Images/Thumb/thumbnail_8.png" alt="Photo of">
-							<div class="photo-overlay">
-								<h3 class="white-head">Add to Order</h3>
-								<p>Glazed with cookies and cream crumble with cookies and cream filling</p>
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO CONTAINER 8 -->
-
-                    <!-- PHOTO CONTAINER 9 -->
-					<div class="photo-container">
-						<div class="photo">
-							<img src="./Images/Thumb/thumbnail_9.png" alt="Photo of">
-							<div class="photo-overlay">
-								<h3 class="white-head">Add to Order</h3>
-								<p>Birthday cake with cake batter filling</p>
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO CONTAINER 9 -->
-
-                    <!-- PHOTO CONTAINER 10 -->
-					<div class="photo-container">
-						<div class="photo">
-							<img src="./Images/Thumb/thumbnail_10.png" alt="Photo of">
-							<div class="photo-overlay">
-								<h3 class="white-head">Add to Order</h3>
-								<p>Double chocolate glazed with chocolate filling</p>
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO CONTAINER 10 -->
-
-                </div>
-            </div>
-        </section>
-        <!-- END MENU/GALLERY -->
+				<div class="mySlides">
+				<div class="numbertext">10 / 10</div>
+				<img src="./Images/Thumb/thumbnail_10.png" style="width:100%">
+				</div>
+				
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			
+				<div class="caption-container">
+				<p id="caption"></p>
+				</div>
+			
+			
+				<div class="column">
+				<img class="demo cursor" src="./Images/Thumb/thumbnail_1.png" style="width:100%" onclick="currentSlide(1)" alt="Original glazed">
+				</div>
+				<div class="column">
+				<img class="demo cursor" src="./Images/Thumb/thumbnail_2.png" style="width:100%" onclick="currentSlide(2)" alt="Chocolate frosting with sprinkles">
+				</div>
+				<div class="column">
+				<img class="demo cursor" src="./Images/Thumb/thumbnail_3.png" style="width:100%" onclick="currentSlide(3)" alt="Strawberry frosting with sprinkles">
+				</div>
+				<div class="column">
+				<img class="demo cursor" src="./Images/Thumb/thumbnail_4.png" style="width:100%" onclick="currentSlide(4)" alt="Chocolate glazed">
+				</div>
+				<div class="column">
+				<img class="demo cursor" src="./Images/Thumb/thumbnail_5.png" style="width:100%" onclick="currentSlide(5)" alt="Cinnamon sugar old-fashioned">
+				</div>
+				<div class="column">
+				<img class="demo cursor" src="./Images/Thumb/thumbnail_6.png" style="width:100%" onclick="currentSlide(6)" alt="Powdered cake">
+				</div>
+				<div class="column">
+				<img class="demo cursor" src="./Images/Thumb/thumbnail_7.png" style="width:100%" onclick="currentSlide(7)" alt="Glazed cruller">
+				</div>
+				<div class="column">
+				<img class="demo cursor" src="./Images/Thumb/thumbnail_8.png" style="width:100%" onclick="currentSlide(8)" alt="Glazed with cookies and cream crumble with cookies and cream filling">
+				</div>
+				<div class="column">
+				<img class="demo cursor" src="./Images/Thumb/thumbnail_9.png" style="width:100%" onclick="currentSlide(9)" alt="Birthday cake with cake batter filling">
+				</div>
+				<div class="column">
+				<img class="demo cursor" src="./Images/Thumb/thumbnail_10.png" style="width:100%" onclick="currentSlide(10)" alt="Double chocolate glazed with chocolate filling">
+				</div>
+			</div>
+		</div>
+        <!-- END MENU/GALLERY Lightbox -->
 
         <!-- CATERING -->
 		<section id="order">
