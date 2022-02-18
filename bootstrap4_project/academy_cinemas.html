@@ -12,10 +12,19 @@
     </head>
     <body>
 
+        <!-- navbar -->
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            <nav class="navbar navbar-expand-lg navbar-light bg-danger sticky-top">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <img src="./Img/logo.png" width="50" height="50" class="d-inline-block align-top" alt="logo"></a>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                          <a class="nav-link text-light" href="#Home">Home</a>
+                        </li>
                         <li class="nav-item active">
                             <a class="nav-link text-light" href="#About">About</a>
                         </li>
@@ -28,14 +37,15 @@
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search">
-                        <button class="btn btn-primary my-2 my-sm-0 text-light" type="submit">Search</button>
+                        <button class="btn btn-info my-2 my-sm-0 text-light" type="submit">Search</button>
                     </form>
                 </div>
             </nav>
+        <!-- /navbar -->
 
-            <div class="jumbotron jumbotron-fluid bg-info text-center">
+            <div class="jumbotron jumbotron-fluid bg-danger text-center" id="Home">
                 <div class="container">
-                    <h1 class="display-3 text-light">Academy Cinemas</h1>
+                    <h1 class="display-2 text-light">Academy Cinemas</h1>
                     <p class="lead text-light">Sit back, relax, and enjoy the show...</p>
                 </div>
             </div>
@@ -91,7 +101,7 @@
                   <img class="card-img-top" src="./Img/ghostintheshell.jpeg" alt="Card image cap" width="312" height="200">
                   <div class="card-body">
                     <h5 class="card-title">Ghost in the Shell</h5>
-                    <p class="card-text">In the nearr future, Major Mila Killian is the first of her kind: A human saved from a terrible crash, who is cyber-enhanced to be a perrfect soldierr devoted to stopping the world's most dangerous criminals.</p>
+                    <p class="card-text">In the nearr future, Major Mila Killian is the first of her kind: A human saved from a terrible crash, who is cyber-enhanced to be a perrfect soldier devoted to stopping the world's most dangerous criminals.</p>
                     <span class="badge badge-pill badge-info">12:00pm</span>
                     <span class="badge badge-pill badge-info">1:30pm</span>
                     <span class="badge badge-pill badge-info">3:00pm</span>
@@ -116,16 +126,79 @@
             </div>
             <!-- /showtimes -->
 
-            <div class="text-center" id="Deals">
-                <form>
-                    <h1 class="text-primary my-5">Sign up for Movie Club Rewards</h1>
-                    <div class="form-group">
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <!-- jumbotron heading -->
+            <div class="jumbotron jumbotron-fluid bg-info mt-5 text-center" id="Deals">
+              <div class="container">
+                <h1 class="display-4 hidden-sm-down" style="color:#fff;font-family:roboto;font-weight:900;text-transform:uppercase;">
+                Movie Deals</h1>
+                <p class="lead">Check out our monthly deals...</p>
+                <!-- movie deals -->
+                <button type="button" data-toggle="modal" data-target="#register" class="btn btn-outline-danger">See our monthly movie deals!</button>
+                <!-- /movie deals -->
+              </div>
+            </div>
+            <!-- /jumbotron heading -->
+            
+            <!-- signup form-->
+            <div class="row">
+                <div class="container text-center col-md-6" id="deals">
+                  <div class="container text-center">
+                    <h1 class="display-5 my-4 col-lg-auto text-danger">Stay current on movies!</h1>
+                    <div class="input-group mb-5">
+                      <input type="text" class="form-control" placeholder="Email">
+                      <span class="input-group-btn">
+                          <button type="button" class="btn btn-secondary btn-info popover-dismiss" data-container="body" data-toggle="popover" data-placement="top" data-content="Submit your email to receive great movie reward deals!">
+                          Sign up!</button>
+                      </span>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>
+                  </div>
+                </div>
              </div>
+            <!-- /signup form-->
 
+            <!-- form modal -->
+            <div class="modal fade" tabindex="-1" role="dialog" id="register">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Register to receive movie deals</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+
+                  <form>
+                    <fieldset class="form-group">
+                      <label for="firstname">First Name:</label>
+                      <input type="text" class="form-control" id="firstname" placeholder="First Name...">
+                    </fieldset>
+                    <fieldset class="form-group">
+                      <label for="lastname">Lirst Name:</label>
+                      <input type="text" class="form-control" id="lastname" placeholder="Last Name...">
+                    </fieldset>
+                    <fieldset class="form-group">
+                      <label for="email">Email:</label>
+                      <input type="email" class="form-control" id="email" placeholder="Email...">
+                    </fieldset>
+                    <fieldset class="form-group">
+                      <label for="password">Password:</label>
+                      <input type="password" class="form-control" id="password" placeholder="Password...">
+                    </fieldset>
+                  </form>
+
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /form modal -->
+
+            <!-- footer -->
              <div>
                 <ul class="nav nav-inline">
                     <li class="nav-item">
@@ -138,7 +211,7 @@
                         <small><a class="nav-link" href="#">Info@academycinemas.com</a></small>
                     </li>
                     <li class="nav-item">
-                        <small class="nav-link">&copy;2019 Academy Cinemas&reg;</small>
+                        <small class="nav-link">&copy;2022 Academy Cinemas&reg;</small>
                     </li>                
                 </ul>
              </div>
@@ -150,5 +223,11 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+        <script>
+            $('.popover-dismiss').popover({
+              trigger: 'focus'
+            })
+        </script>
     </body>
 </html>
