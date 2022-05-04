@@ -1,12 +1,12 @@
 # HTML and CSS Projects
-This is the repository for all of my HTML and CSS course projects!
+This is the repository for all of my HTML and CSS course projects! Click the links below to view the files.
 ## Projects:
-- [Project Space](#Project-Space)
-- [Middle Earth Site](#Middle-Earth-Site)
-- [Donut Shop Website](#Donut-Shop-Website)
-- [Academy Cinemas Site (Bootstrap)](#Academy-Cinemas-Site-(Bootstrap))
-- [Basic HTML and CSS files](#Basic-HTML-and-CSS-files)
-- [Basic HTML and Javascript files](#Basic-HTML-and-Javascript-files)
+- <a href="https://github.com/alvarezsound/HTML-and-CSS-Projects/tree/main/Project-space" target="_blank">Project Space</a>
+- <a href="https://github.com/alvarezsound/HTML-and-CSS-Projects/tree/main/MiddleEarth" target="_blank">Middle Earth Site</a>
+- <a href="https://github.com/alvarezsound/HTML-and-CSS-Projects/tree/main/JeffsDonuts" target="_blank">Donut Shop Website</a>
+- <a href="https://github.com/alvarezsound/HTML-and-CSS-Projects/tree/main/bootstrap4_project" target="_blank">Academy Cinemas Site</a>
+- <a href="https://github.com/alvarezsound/HTML-and-CSS-Projects/tree/main/Basic_HTML_and_CSS" target="_blank">Basic HTML and CSS files=</a>
+- <a href="https://github.com/alvarezsound/HTML-and-CSS-Projects/tree/main/Basic_HTML_and_Javascript" target="_blank">Basic HTML and Javascript files</a>
 ## Project Space
 This is a home page for a space travel company. It's styled using CSS and contains a navbar, image containers, and a form. This was a tutorial website used to build familiarity using HTML/CSS.
 ## Middle Earth Site
