@@ -13,6 +13,9 @@ This is a home page for a space travel company. It's styled using CSS and contai
 This is a home page for a travel company based in Middle Earth. It's styled using CSS and contains a navbar, image containers, and a form. This was my modification of the project space site.
 ## Donut Shop Website
 This was a challenge in making a fully functional, one-page website from scratch. It's styled using CSS and contains a navbar, slideshow gallery (using javascript), and a form. 
+
+![Donut Shop](/Images/DonutShop.gif)
+
 ## Academy Cinemas Site (Bootstrap)
 This page is an example home page for a Movie theater that is styled using Bootstrap 4. It contains many Bootstrap components including but not limited to a navbar, jumbotron, form, cards, and dropdowns.
 ## Basic HTML and CSS files
