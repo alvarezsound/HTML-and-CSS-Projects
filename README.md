@@ -12,7 +12,7 @@ This is a home page for a space travel company. It's styled using CSS and contai
 ## Middle Earth Site
 This is a home page for a travel company based in Middle Earth. It's styled using CSS and contains a navbar, image containers, and a form. This was my modification of the project space site.
 
-![Donut Shop](/Images/MiddleEarth_Site.gif)
+![Middle Earth Site](/Images/MiddleEarth_Site.gif)
 
 ## Donut Shop Website
 This was a challenge in making a fully functional, one-page website from scratch. It's styled using CSS and contains a navbar, slideshow gallery (using javascript), and a form. 
