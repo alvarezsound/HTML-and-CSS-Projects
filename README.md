@@ -11,13 +11,17 @@ This is the repository for all of my HTML and CSS course projects! Click the lin
 This is a home page for a space travel company. It's styled using CSS and contains a navbar, image containers, and a form. This was a tutorial website used to build familiarity using HTML/CSS.
 ## Middle Earth Site
 This is a home page for a travel company based in Middle Earth. It's styled using CSS and contains a navbar, image containers, and a form. This was my modification of the project space site.
+
+![Donut Shop](/Images/MiddleEarth_Site.gif)
 ## Donut Shop Website
 This was a challenge in making a fully functional, one-page website from scratch. It's styled using CSS and contains a navbar, slideshow gallery (using javascript), and a form. 
 
-![Donut Shop](/Images/DonutShop.gif)
+![Donut Shop Site](/Images/DonutShop_Site.gif)
 
 ## Academy Cinemas Site (Bootstrap)
 This page is an example home page for a Movie theater that is styled using Bootstrap 4. It contains many Bootstrap components including but not limited to a navbar, jumbotron, form, cards, and dropdowns.
+
+![Academy Cinemas Site](/Images/AcademyCinemas_Site.gif)
 ## Basic HTML and CSS files
 Folder containing multiple exercises/assignments used to build familiarity with HTML and CSS.
 ## Basic HTML and Javascript files
