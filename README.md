@@ -29,3 +29,4 @@ Folder containing multiple exercises/assignments used to build familiarity with 
 ## Basic HTML and Javascript files
 Folder containing various exercises/assignments used to build familiarity with HTML and Javascript.
 
+Back to [top](#HTML-and-CSS-Projects)
